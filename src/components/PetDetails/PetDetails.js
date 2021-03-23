@@ -16,7 +16,7 @@ const Petdetails = ({
                 <p>Pet counter: {pet.likes} <a href="#"><button className="button"><i className="fas fa-heart"></i>
                             Pet</button></a>
                 </p>
-                <p className="img"><img src={pet.imgURL}/></p>
+                <p className="img"><img src={pet.imageURL}/></p>
 				<p className="description">{pet.description}</p>
             </div>
     );

@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Dashboard} />
           <Route path="/categories/:category" component={Dashboard} />
-          <Route path="pets/details/:petId" component={Petdetails} /> 
+          <Route path="/pets/details/:petId" component={Petdetails} /> 
         </Switch>
       <Footer />
     </div>
